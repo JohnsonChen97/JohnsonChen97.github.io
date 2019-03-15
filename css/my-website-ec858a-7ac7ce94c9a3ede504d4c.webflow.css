@@ -1039,6 +1039,19 @@
   text-align: center;
 }
 
+.html-embed {
+  padding-top: 65px;
+}
+
+.html-embed-2 {
+  position: static;
+}
+
+.div-block-17 {
+  position: relative;
+  padding-top: 60px;
+}
+
 @media (max-width: 991px) {
   .herogrid {
     margin-top: 85px;
@@ -2267,7 +2280,7 @@
   grid-row-end: 2;
 }
 
-#w-node-aaf76621cb15-d863e400 {
+#w-node-d81e148f57cc-d863e400 {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
@@ -2276,6 +2289,8 @@
   grid-row-start: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 3;
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 #w-node-2ee97f7c607c-18d85933 {
