@@ -2000,65 +2000,17 @@
   }
 }
 
-#w-node-e69c895f6795-90648e23 {
+#w-node-ac16c4bdf934-90648e23 {
   -ms-grid-column: 2;
   grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
   -ms-grid-row: 2;
   grid-row-start: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 3;
-}
-
-@media screen and (max-width: 991px) {
-  #w-node-e69c895f6795-90648e23 {
-    -ms-grid-column: 2;
-    grid-column-start: 2;
-    -ms-grid-column-span: 1;
-    grid-column-end: 3;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  #w-node-e69c895f6795-90648e23 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 3;
-    grid-column-end: 4;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-  }
-}
-
-#w-node-6c5ae6a54252-90648e23 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
-  -ms-grid-row: 2;
-  grid-row-start: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 3;
-}
-
-@media screen and (max-width: 479px) {
-  #w-node-6c5ae6a54252-90648e23 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 3;
-    grid-column-end: 4;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-  }
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 #w-node-09cccf702703-90648e23 {
@@ -2072,17 +2024,6 @@
   grid-row-end: 2;
 }
 
-#w-node-aaf76621cb15-90648e23 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 3;
-  grid-row-start: 3;
-  -ms-grid-row-span: 1;
-  grid-row-end: 4;
-}
-
 #w-node-67d23891d577-90648e23 {
   -ms-grid-column: 2;
   grid-column-start: 2;
@@ -2092,6 +2033,19 @@
   grid-row-start: 4;
   -ms-grid-row-span: 1;
   grid-row-end: 5;
+}
+
+#w-node-33bc57212e7f-90648e23 {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 #w-node-d0305230bb3a-90648e23 {
