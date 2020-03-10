@@ -2636,9 +2636,16 @@
   .emailicon {
     right: 10vw;
   }
+  .emailicon.homelinks2 {
+    right: 10vw;
+  }
   .linkediniconhome {
     right: 18vw;
     max-width: 100%;
+  }
+  .linkediniconhome.homelinks {
+    right: 10vw;
+    margin-right: 55px;
   }
   .name3 {
     font-size: 4em;
@@ -2668,18 +2675,19 @@
   .dm-linkbox {
     width: 100%;
     height: 25vh;
-    background-position: 12% 50%;
-    background-size: 45vw;
+    background-position: 18% 50%;
+    background-size: 35vw;
   }
   .dmheader {
+    top: 20%;
     font-size: 1.3em;
     line-height: 18px;
   }
   .tripsec-linkbox {
     width: 100%;
     height: 25vh;
-    background-position: 20% 50%;
-    background-size: 35vw;
+    background-position: 24% 50%;
+    background-size: 25vw;
   }
   .imageunderline {
     padding-left: 45px;
@@ -2689,6 +2697,7 @@
     opacity: 1;
   }
   .tripsecheader {
+    top: 20%;
     opacity: 1;
     font-size: 1.3em;
     line-height: 18px;
@@ -2783,10 +2792,11 @@
   }
   .riot-linkbox {
     height: 25vh;
-    background-position: 10% 50%;
-    background-size: 50vw;
+    background-position: 16% 50%;
+    background-size: 40vw;
   }
   .riotheader {
+    top: 20%;
     font-size: 1.3em;
     line-height: 18px;
   }
@@ -2835,37 +2845,38 @@
     grid-template-columns: 10vw 80vw 10vw;
   }
   .tripsec-bannerdesc {
-    top: 37%;
+    top: 30%;
   }
   .tripsec-learnmore {
-    top: 65%;
+    top: 75%;
   }
   .riot-bannerdesc {
-    top: 37%;
+    top: 30%;
   }
   .riot-learnmore {
-    top: 65%;
+    top: 75%;
   }
   .dm-bannerdesc {
-    top: 37%;
+    top: 30%;
   }
   .dm-learnmore {
-    top: 65%;
+    top: 75%;
   }
   .walkrs-linkbox {
     height: 25vh;
-    background-position: 17% 50%;
-    background-size: 40vw;
+    background-position: 21% 50%;
+    background-size: 30vw;
   }
   .walkrsheader {
+    top: 20%;
     font-size: 1.3em;
     line-height: 18px;
   }
   .walkrs-bannerdesc {
-    top: 37%;
+    top: 30%;
   }
   .walkrs-learnmore {
-    top: 65%;
+    top: 75%;
   }
   .link-2 {
     font-size: 1.2em;
@@ -3265,9 +3276,15 @@
     right: 5vw;
     max-width: 100%;
   }
+  .emailicon.homelinks2 {
+    right: 5vw;
+  }
   .linkediniconhome {
     right: 22vw;
     max-width: 100%;
+  }
+  .linkediniconhome.homelinks {
+    right: 5vw;
   }
   .name3 {
     margin-top: 10px;
@@ -3278,8 +3295,6 @@
   }
   .namecontainer {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
   }
   .name1 {
     font-size: 1.3em;
@@ -3298,19 +3313,21 @@
   }
   .dm-linkbox {
     width: 100%;
-    height: 20vh;
+    height: 35vh;
     background-position: 50% 10%;
+    background-size: 45vw;
   }
   .dmheader {
     left: 5vw;
-    top: 10vh;
+    top: 52%;
     right: 5vw;
     font-size: 1.2em;
     line-height: 18px;
   }
   .tripsec-linkbox {
-    height: 20vh;
+    height: 35vh;
     background-position: 50% 10%;
+    background-size: 40vw;
   }
   .imageunderline {
     padding-left: 30px;
@@ -3321,7 +3338,7 @@
   }
   .tripsecheader {
     left: 5vw;
-    top: 10vh;
+    top: 52%;
     right: 5vw;
     opacity: 1;
     font-size: 1.2em;
@@ -3428,12 +3445,14 @@
   }
   .riot-linkbox {
     width: 100%;
-    height: 20vh;
+    height: 35vh;
     background-position: 50% 0%;
+    background-size: 50vw;
+    background-attachment: scroll;
   }
   .riotheader {
     left: 5vw;
-    top: 10vh;
+    top: 52%;
     right: 5vw;
     font-size: 1.2em;
   }
@@ -3531,7 +3550,7 @@
   }
   .tripsec-bannerdesc {
     left: 5vw;
-    top: 12vh;
+    top: 60%;
     right: 5vw;
   }
   .tripsec-learnmore {
@@ -3541,7 +3560,7 @@
   }
   .riot-bannerdesc {
     left: 5vw;
-    top: 12vh;
+    top: 60%;
     right: 5vw;
   }
   .riot-learnmore {
@@ -3551,7 +3570,7 @@
   }
   .dm-bannerdesc {
     left: 5vw;
-    top: 12vh;
+    top: 60%;
     right: 5vw;
     bottom: auto;
   }
@@ -3561,19 +3580,19 @@
     right: 5vw;
   }
   .walkrs-linkbox {
-    height: 20vh;
+    height: 35vh;
     background-position: 50% 10%;
-    background-size: 35vw;
+    background-size: 45vw;
   }
   .walkrsheader {
     left: 5vw;
-    top: 10vh;
+    top: 52%;
     right: 5vw;
     font-size: 1.2em;
   }
   .walkrs-bannerdesc {
     left: 5vw;
-    top: 12vh;
+    top: 60%;
     right: 5vw;
   }
   .walkrs-learnmore {
