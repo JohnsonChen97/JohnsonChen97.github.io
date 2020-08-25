@@ -290,12 +290,12 @@
   margin-top: 170px;
   padding-top: 150px;
   grid-column-gap: 0px;
-  grid-row-gap: 4vw;
+  grid-row-gap: 1.5vw;
   grid-template-areas: ". . . .";
   -ms-grid-columns: 20vw 0px 30vw 0px 30vw 0px 20vw;
   grid-template-columns: 20vw 30vw 30vw 20vw;
-  -ms-grid-rows: auto 4vw 10vh;
-  grid-template-rows: auto 10vh;
+  -ms-grid-rows: auto 1.5vw auto;
+  grid-template-rows: auto auto;
   background-color: #fff;
 }
 
@@ -416,11 +416,12 @@
 }
 
 .name5 {
-  margin-top: 60px;
+  margin-top: 30px;
   opacity: 0.9;
   font-family: Poppins, sans-serif;
   color: #3b3b3b;
-  font-size: 1.1em;
+  font-size: 1.4em;
+  line-height: 1.6em;
   font-weight: 300;
   text-align: left;
 }
@@ -574,7 +575,7 @@
   position: relative;
   height: 50vh;
   background-image: url('../images/DM-Banner.png');
-  background-position: 20% 50%;
+  background-position: 18vw 50%;
   background-size: 35vw;
   background-repeat: no-repeat;
 }
@@ -628,7 +629,7 @@
   position: relative;
   height: 50vh;
   background-image: url('../images/iPhone-X-mockup-hover-both.png');
-  background-position: 25% 50%;
+  background-position: 23vw 50%;
   background-size: 25vw;
   background-repeat: no-repeat;
 }
@@ -1003,7 +1004,7 @@
   position: relative;
   height: 50vh;
   background-image: url('../images/Riot-Banner.png');
-  background-position: 20% 50%;
+  background-position: 15vw 50%;
   background-size: 40vw;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -1597,7 +1598,7 @@
   position: absolute;
   left: 60%;
   top: 40%;
-  right: 10%;
+  right: 20vw;
   bottom: auto;
   font-family: Poppins, sans-serif;
   font-size: 1.1em;
@@ -1620,7 +1621,7 @@
   position: absolute;
   left: 60%;
   top: 40%;
-  right: 10%;
+  right: 20vw;
   font-family: Poppins, sans-serif;
   font-size: 1.1em;
   line-height: 1.4em;
@@ -1642,7 +1643,7 @@
   position: absolute;
   left: 60%;
   top: 40%;
-  right: 10%;
+  right: 20vw;
   bottom: auto;
   font-family: Poppins, sans-serif;
   font-size: 1.1em;
@@ -1666,7 +1667,7 @@
   position: relative;
   height: 50vh;
   background-image: url('../images/Colour-Calendar-Mockup.png');
-  background-position: 22.5% 50%;
+  background-position: 20.5vw 50%;
   background-size: 30vw;
   background-repeat: no-repeat;
 }
@@ -1700,7 +1701,7 @@
   position: absolute;
   left: 60%;
   top: 40%;
-  right: 10%;
+  right: 20vw;
   font-family: Poppins, sans-serif;
   font-size: 1.1em;
   line-height: 1.4em;
@@ -1732,11 +1733,12 @@
 }
 
 .link-2 {
+  margin-bottom: 100px;
   font-family: Poppins, sans-serif;
   color: #2c2c2c;
   font-size: 1.4em;
   line-height: 2em;
-  font-weight: 700;
+  font-weight: 300;
   text-decoration: none;
 }
 
@@ -2793,6 +2795,23 @@
 
 .div-block-34 {
   margin-top: 80px;
+}
+
+.grid-126 {
+  margin-top: 40px;
+  grid-column-gap: 0px;
+  -ms-grid-columns: 20vw 60vw 20vw;
+  grid-template-columns: 20vw 60vw 20vw;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.bold-text-44 {
+  font-weight: 500;
+}
+
+.bold-text-45 {
+  font-weight: 500;
 }
 
 @media screen and (max-width: 991px) {
@@ -5171,6 +5190,17 @@
 }
 
 #w-node-996901837c86-16faebbf {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+#w-node-8a7327128e82-16faebbf {
   -ms-grid-column-span: 1;
   grid-column-end: 3;
   -ms-grid-column: 2;
