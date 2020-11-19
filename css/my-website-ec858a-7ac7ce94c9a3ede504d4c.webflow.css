@@ -1006,7 +1006,7 @@
   height: 50vh;
   background-image: url('../images/Riot-Banner.png');
   background-position: 15vw 50%;
-  background-size: 40vw;
+  background-size: 45vw;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
@@ -1920,7 +1920,7 @@
   height: 80vh;
   background-image: url('../images/Riot-Banner.png');
   background-position: 50% 50%;
-  background-size: 50vw;
+  background-size: 45vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
