@@ -4167,8 +4167,7 @@
   }
 
   .dm-linkbox {
-    width: 100%;
-    height: 25vh;
+    height: 25em;
     background-position: 50% 10%;
     background-size: 45vw;
   }
@@ -4179,7 +4178,7 @@
   }
 
   .tripsec-linkbox {
-    height: 25vh;
+    height: 25em;
     background-position: 50% 5%;
     background-size: 35vw;
   }
@@ -4322,8 +4321,7 @@
   }
 
   .riot-linkbox {
-    width: 100%;
-    height: 25vh;
+    height: 25em;
     background-position: 50% 10%;
     background-size: 45vw;
     background-attachment: scroll;
@@ -4452,7 +4450,7 @@
   }
 
   .walkrs-linkbox {
-    height: 25vh;
+    height: 25em;
     background-position: 50% 5%;
     background-size: 40vw;
   }
@@ -4644,7 +4642,7 @@
   }
 
   .dms-linkbox {
-    height: 25vh;
+    height: 25em;
     background-position: 50% 15%;
     background-size: 40vw;
   }
@@ -4730,7 +4728,7 @@
   }
 
   .grid-135 {
-    top: 10vh;
+    top: 10em;
     -ms-grid-columns: 10% 1fr 10%;
     grid-template-columns: 10% 1fr 10%;
     -ms-grid-rows: auto 0.5vh auto 1vh auto;
@@ -4742,7 +4740,7 @@
   }
 
   .grid-136 {
-    top: 10vh;
+    top: 14em;
     -ms-grid-columns: 10% 1fr 10%;
     grid-template-columns: 10% 1fr 10%;
     -ms-grid-rows: auto 0.5vh auto 1vh auto;
@@ -4754,7 +4752,7 @@
   }
 
   .grid-137 {
-    top: 10vh;
+    top: 14em;
     -ms-grid-columns: 10% 1fr 10%;
     grid-template-columns: 10% 1fr 10%;
     -ms-grid-rows: auto 0.5vh auto 1vh auto;
@@ -4766,7 +4764,7 @@
   }
 
   .grid-138 {
-    top: 10vh;
+    top: 14em;
     -ms-grid-columns: 10% 1fr 10%;
     grid-template-columns: 10% 1fr 10%;
     -ms-grid-rows: auto 0.5vh auto 1vh auto;
@@ -4778,7 +4776,7 @@
   }
 
   .grid-139 {
-    top: 12vh;
+    top: 14em;
     -ms-grid-columns: 10% 1fr 10%;
     grid-template-columns: 10% 1fr 10%;
     -ms-grid-rows: auto 0.5vh auto 1vh auto;
