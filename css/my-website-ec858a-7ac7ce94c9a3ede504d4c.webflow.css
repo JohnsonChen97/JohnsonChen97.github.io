@@ -560,6 +560,9 @@
 .tripsec-link:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, .7);
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url('../images/HiFi-picture.png'), linear-gradient(#fff, #fff);
+  background-position: 0 0, 50%, 0 0;
+  background-size: auto, cover, auto;
 }
 
 .tripsecheader {
@@ -870,13 +873,18 @@
 .riot-link {
   height: 100%;
   color: #2c2c2c;
-  transition: background-color .3s;
+  transition: opacity .2s, background-color .3s;
   position: relative;
 }
 
 .riot-link:hover {
   color: #fff;
+  -webkit-text-fill-color: inherit;
   background-color: rgba(0, 0, 0, .7);
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../images/case-study-picture.png');
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
+  background-clip: border-box;
 }
 
 .riotheader {
@@ -1352,6 +1360,9 @@
 .walkrs-link:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, .7);
+  background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, .35)), url('../images/home-page-hover-cover.jpg');
+  background-position: 0 0, 0%;
+  background-size: auto, cover;
 }
 
 .walkrsheader {
@@ -2254,7 +2265,7 @@
 
 .dms-link:hover {
   color: #fff;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .35);
 }
 
 .dms-linkbox {
@@ -2669,6 +2680,9 @@
 .triparc-link:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, .7);
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../images/home-page-hover-image-copy.jpg');
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
 }
 
 .image-33 {
