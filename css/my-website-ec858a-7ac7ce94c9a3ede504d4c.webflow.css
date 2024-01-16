@@ -1724,10 +1724,10 @@
 
 .section-2 {
   height: 50vh;
-  background-image: url('../images/TripArc-DarkGrey.svg');
+  background-image: url('../images/home-page-hover-image-copy.jpg');
   background-position: 50% 60%;
   background-repeat: no-repeat;
-  background-size: 30vw;
+  background-size: cover;
   background-attachment: scroll;
 }
 
@@ -2955,6 +2955,13 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .section-3 {
+    height: 75vh;
+    background-image: url('../images/home-page-hover-cover.jpg');
+    background-position: 50% 100%;
+    background-size: cover;
+  }
+
   .grid-145 {
     grid-template-columns: 30% 1fr 1% 1fr 1% 1fr 30%;
   }
