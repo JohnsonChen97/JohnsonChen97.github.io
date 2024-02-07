@@ -658,7 +658,6 @@
   grid-row-gap: 60px;
   grid-template: "."
                  "."
-                 "."
                  / 30% 40% 30%;
   margin-bottom: 60px;
 }
@@ -2648,6 +2647,7 @@
 }
 
 .heading-38 {
+  color: #2c2c2c;
   text-align: center;
   margin-bottom: 20px;
   font-family: Poppins, sans-serif;
@@ -2700,6 +2700,7 @@
 
 .paragraph-92 {
   color: #2c2c2c;
+  margin-bottom: 10px;
   font-family: Poppins, sans-serif;
   font-size: 1.1em;
   font-weight: 300;
@@ -2727,7 +2728,7 @@
   background-color: #000;
   grid-template-rows: auto;
   grid-template-columns: 35% 30% 35%;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .paragraph-94 {
@@ -2795,7 +2796,7 @@
 .grid-146 {
   grid-column-gap: 0px;
   grid-row-gap: 60px;
-  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
   grid-template-columns: 30% 1fr 30%;
   margin-bottom: 60px;
 }
@@ -3019,6 +3020,44 @@
   padding-right: 10px;
 }
 
+.grid-165 {
+  grid-column-gap: 0px;
+  grid-template-columns: 30% 1fr 30%;
+  margin-bottom: 100px;
+}
+
+.paragraph-120 {
+  color: #2c2c2c;
+  font-family: Poppins, sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.8em;
+}
+
+.bold-text-80, .bold-text-81 {
+  font-weight: 500;
+}
+
+.paragraph-121 {
+  margin-bottom: 0;
+  font-family: Poppins, sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.8em;
+}
+
+.heading-40 {
+  color: #2c2c2c;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Poppins, sans-serif;
+  font-size: 1.8em;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 2em;
+}
+
 @media screen and (min-width: 1440px) {
   .grid-145 {
     grid-template-columns: 10% 1fr 1% 1fr 1% 1fr 10%;
@@ -3038,9 +3077,23 @@
     grid-template-rows: auto;
     grid-template-columns: 30% 1fr 30%;
   }
+
+  .grid-164 {
+    grid-column-gap: 0px;
+    grid-template-columns: 30% 1fr 30%;
+  }
 }
 
 @media screen and (min-width: 1920px) {
+  .riot-link:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/case-study-picture.png');
+    background-size: auto, cover;
+  }
+
+  .section-2 {
+    background-size: contain;
+  }
+
   .section-3 {
     height: 75vh;
     background-image: url('../images/home-page-hover-cover.jpg');
@@ -3053,7 +3106,7 @@
   }
 
   .grid-146 {
-    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
   }
 
   .grid-149, .grid-152 {
@@ -3588,7 +3641,7 @@
     grid-template-columns: 3% auto 5% auto 5% auto 5% auto 5% auto 5% auto 5% auto 3%;
   }
 
-  .grid-161, .grid-163 {
+  .grid-161, .grid-163, .grid-165 {
     grid-template-columns: 10% 1fr 10%;
   }
 }
@@ -4696,12 +4749,16 @@
   grid-area: 2 / 2 / 3 / 3;
 }
 
+#w-node-_5e7bb3bf-eb02-028b-fe22-76d4facca670-90648e23, #w-node-d272dbb9-81b3-16ea-3faa-ce509d667515-90648e23 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
 #w-node-_87975556-5e6b-c74d-1dca-26d4f624c599-90648e23 {
-  grid-area: 3 / 2 / 4 / 3;
+  grid-area: 2 / 2 / 3 / 3;
   justify-self: center;
 }
 
-#w-node-_5e7bb3bf-eb02-028b-fe22-76d4facca670-90648e23, #w-node-_6d74cc60-32c7-2c0a-dc66-ec9b7b0f2448-90648e23 {
+#w-node-_6d74cc60-32c7-2c0a-dc66-ec9b7b0f2448-90648e23 {
   grid-area: 1 / 2 / 2 / 3;
 }
 
@@ -4827,10 +4884,18 @@
 }
 
 #w-node-_9c39b6aa-8780-0594-dcfa-7b099ee83835-90648e23 {
-  grid-area: 7 / 2 / 8 / 3;
+  grid-area: 9 / 2 / 10 / 3;
 }
 
 #w-node-_5d86093b-eeba-6670-0495-6a209e8038fa-90648e23 {
+  grid-area: 8 / 2 / 9 / 3;
+}
+
+#w-node-b156d8ff-aff3-1eee-5fbe-b574450b7ab1-90648e23 {
+  grid-area: 7 / 2 / 8 / 3;
+}
+
+#w-node-_66178377-43e1-597f-de2c-46663f55e673-90648e23 {
   grid-area: 6 / 2 / 7 / 3;
 }
 
@@ -5260,11 +5325,11 @@
   }
 
   #w-node-_9c39b6aa-8780-0594-dcfa-7b099ee83835-90648e23 {
-    grid-area: 7 / 2 / 8 / 3;
+    grid-area: 9 / 2 / 10 / 3;
   }
 
   #w-node-_5d86093b-eeba-6670-0495-6a209e8038fa-90648e23 {
-    grid-area: 6 / 2 / 7 / 3;
+    grid-area: 8 / 2 / 9 / 3;
     justify-self: auto;
   }
 
@@ -5275,6 +5340,10 @@
 
   #w-node-ea38e266-0e32-20e8-4e1c-ce3e36837546-90648e23, #w-node-bad41d10-904c-d5ba-5fd4-1a1891c37faa-90648e23, #w-node-_9edfaff1-c224-c330-c334-d58a497ab838-90648e23 {
     grid-area: span 1 / span 1 / span 1 / span 1;
+  }
+
+  #w-node-b156d8ff-aff3-1eee-5fbe-b574450b7ab1-90648e23 {
+    grid-row: 7 / 8;
   }
 
   #w-node-b5f7be64-4a10-bc33-a39c-03e4699b7afe-90648e23 {
