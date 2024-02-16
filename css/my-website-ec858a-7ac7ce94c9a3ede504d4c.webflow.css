@@ -1401,6 +1401,7 @@
 }
 
 .link-2 {
+  width: auto;
   color: #2c2c2c;
   margin-bottom: 100px;
   font-family: Poppins, sans-serif;
@@ -1408,6 +1409,7 @@
   font-weight: 300;
   line-height: 2em;
   text-decoration: none;
+  display: inline;
 }
 
 .sticky-nav {
@@ -3094,6 +3096,20 @@
   font-weight: 500;
 }
 
+.link-16 {
+  color: #2c2c2c;
+  margin-bottom: 100px;
+  font-family: Poppins, sans-serif;
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 1.8em;
+  text-decoration: none;
+}
+
+.div-block-49 {
+  margin-bottom: 100px;
+}
+
 @media screen and (min-width: 1440px) {
   .grid-145 {
     grid-template-columns: 10% 1fr 1% 1fr 1% 1fr 10%;
@@ -4707,7 +4723,7 @@
   align-self: auto;
 }
 
-#w-node-_46928be2-1f0f-91a1-acea-90017c2df5fd-2c1349f5 {
+#w-node-_85914535-0220-c2d3-adf4-91142ff4cf1b-2c1349f5, #w-node-_3d650cf8-c13a-1dce-7926-dcf4383ba6c3-2c1349f5 {
   grid-area: 2 / 2 / 3 / 3;
 }
 
