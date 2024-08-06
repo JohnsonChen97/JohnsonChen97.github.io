@@ -141,7 +141,7 @@
 .titles {
   color: #fff;
   margin-top: 120px;
-  font-size: 130px;
+  font-size: 40px;
   position: relative;
   left: 8%;
 }
@@ -356,9 +356,9 @@
   text-align: left;
   margin-top: 30px;
   font-family: Poppins, sans-serif;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 50px;
 }
 
 .titleheader {
@@ -3100,7 +3100,7 @@
   color: #2c2c2c;
   margin-bottom: 100px;
   font-family: Poppins, sans-serif;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: 500;
   line-height: 1.8em;
   text-decoration: none;
