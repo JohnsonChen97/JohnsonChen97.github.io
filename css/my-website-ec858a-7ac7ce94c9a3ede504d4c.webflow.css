@@ -3114,7 +3114,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 16px;
   grid-template-rows: auto auto;
-  grid-template-columns: 10% 1fr 1% 1fr 1% 1fr 10%;
+  grid-template-columns: 15% 1fr 1% 1fr 1% 1fr 15%;
   grid-auto-flow: row;
   position: static;
 }
